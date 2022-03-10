@@ -10,7 +10,7 @@ ORDENAR = 6
 SALIR = 0
 
 registro_mascotas = []
-fecha_actual = datetime.datetime.strptime(FechaActual, '%b %d %Y %H:%M:%S')
+fecha_actual = datetime.datetime.strptime(FechaActual, '%b %d %y %h:%m:%s')
 
 def imprimir_registro():
     os.system('cls')
@@ -30,8 +30,7 @@ def crear_registro():
     print('              Crear mascota:')
     nombre = input('Nombre: ')
     registro_mascotas.append(nombre)
-    print(f'La mascota {nombre} ha sido agregado con éxito al registro de mascotas.Buen día
-          Registro actualizado a las (fecha_actual)')
+    print(f'La mascota {nombre} ha sido agregado con éxito al registro de mascotas.Buen día')
     
 def buscar_registro():
     print('               Buscar mascota:')
@@ -47,9 +46,9 @@ def buscar_registro():
         else:
             print(f'La mascota {nombre} no ha sido encontrado en el registro de mascotas. Buen día')
             
-def actualizar_registro():
+"""def actualizar_registro():
     print('               Actualizar mascota:')
-    registro_mascotas.
+    registro_mascotas"""
         
 def eliminar_registro():
     print('               Eliminar mascota:')
