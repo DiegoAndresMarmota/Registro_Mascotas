@@ -13,7 +13,7 @@ registro_mascotas = []
 #print(tiempo.strftime('%d/%m/%Y %H:%M:%S'))
 
 def imprimir_registro():
-    os.system('cls')
+    #os.system('cls')
     print(f'''                    BIENVENIDOS AL REGISTRO DE MASCOTAS, 
             una empresa de soluciones digitales de Centenario S.A.
           --------------------------------------------------------
