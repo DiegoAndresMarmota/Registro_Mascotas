@@ -4,7 +4,7 @@ import datetime
 CREAR = 1
 BUSCAR = 2
 ELIMINAR = 3
-LISTAR = 4 #MOSTRAR
+LISTAR = 4
 ORDENAR = 5
 SALIR = 0
 
