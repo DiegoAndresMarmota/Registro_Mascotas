@@ -9,9 +9,8 @@ ORDENAR = 5
 SALIR = 0
 
 registro_mascotas = []
-tiempo = datetime.datetime.now()
-print(tiempo.strftime('%d/%m/%Y %H:%M:%S'))
-
+#tiempo = datetime.datetime.now()
+#print(tiempo.strftime('%d/%m/%Y %H:%M:%S'))
 
 def imprimir_registro():
     os.system('cls')
@@ -31,7 +30,7 @@ def crear_registro():
     nombre = input('Nombre: ')
     registro_mascotas.append(nombre)
     print(f'La mascota {nombre} ha sido agregado con éxito al registro')
-    
+  
 def buscar_registro():
     print('               Buscar mascota')
     if len(registro_mascotas) >0:
